@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Search by keyword" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-23T14:45:46" hostname="carecloud-VivoBook-ASUSLaptop-X430FA-S430FA" time="31.641">
+  <properties/>
+  <testcase name="register an user" classname="Search by keyword" time="31.641"/>
+  <system-out><![CDATA[Feature: Search by keyword
+
+  Scenario: register an user            ?[90m# src/test/resources/features/search/search_by_keyword.feature:3?[0m
+09:45:46.721 [Test worker] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+register an user(search-by-keyword;register-an-user)
+-------------------------------------------------------------------
+09:45:47.507 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+09:45:47.507 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors;\n, --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mActor?[0m?[32m doesn't have an account?[0m ?[90m# RegisterStepDefinitions.actor_doesn_t_have_an_account(String)?[0m
+    ?[32mWhen ?[0m?[32mhe complete the form?[0m           ?[90m# RegisterStepDefinitions.he_complete_the_form()?[0m
+    ?[32mThen ?[0m?[32mshould be registered?[0m           ?[90m# RegisterStepDefinitions.should_be_registered()?[0m
+]]></system-out>
+  <system-err><![CDATA[ene. 23, 2021 9:45:47 A. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 9699
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1611413148,015][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+ene. 23, 2021 9:45:48 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
